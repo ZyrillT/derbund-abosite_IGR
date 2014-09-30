@@ -1,0 +1,49 @@
+input.hideme, .payment-option[data-accordion-panel="expanded"] .inner.hideme,  .action-wrap.hidden {
+	display: none;
+}
+
+a.disabled {
+	color:gray; 	
+}
+a.disabled:focus, a.disabled:hover {
+	text-decoration: none;
+	cursor: default;
+}
+
+.unit-wrap div.unit-02.firstStudentOffer {
+	margin-top: 30px;
+}
+
+header.upgrade:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.subscription header.upgrade { padding-left: 4%; }
+.subscription header.upgrade:before { float: left; margin: 0 0 12px -4.5%; padding: 10px 10px; width: auto; height: auto;  content: "Pendent"; font-size: .875rem; line-height: 1; text-align: center; font-weight: bold; text-transform: uppercase; color: white; background: #00a822; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #FFBF00), color-stop(100%, #FF8000));  background-image: -webkit-linear-gradient(#FFBF00, #FF8000); background-image: -moz-linear-gradient(#FFBF00, #FF8000); background-image: -o-linear-gradient(#FFBF00, #FF8000); background-image: linear-gradient(#FFBF00, #FF8000); -moz-border-radius-bottomright: 3px; -webkit-border-bottom-right-radius: 3px; border-bottom-right-radius: 3px; }
+.subscription header.upgrade h1 { clear: both; }
+ 
+@media only screen and (min-width: 43.125em) { .subscription header.upgrade { padding-left: 90px; }
+  .subscription header.upgrade:before { float: left; margin: -31px 0 0 -90px; padding: 34px 10px 10px; width: 54px; height: auto; -moz-border-radius-bottomright: 3px; -webkit-border-bottom-right-radius: 3px; border-bottom-right-radius: 3px; }
+  .subscription header.upgrade h1 { clear: none; } }
+@media only screen and (min-width: 61.25em) { .subscription header.upgrade { padding-left: 126px; }
+  .subscription header.upgrade:before { margin: -31px 0 0 -100px; padding: 34px 10px 0; width: 65px; height: 84px; -moz-border-radius-bottomleft: 3px; -webkit-border-bottom-left-radius: 3px; border-bottom-left-radius: 3px; -moz-border-radius-bottomright: 3px; -webkit-border-bottom-right-radius: 3px; border-bottom-right-radius: 3px; } }
+
+select.zip.ui-autocomplete.ui-menu {
+	width: 100%;
+	margin-top: 2px;
+    padding: 8px 3px;
+}
+
+select.zip.ui-autocomplete.ui-menu.multiple {
+	z-index: 999;
+	position: absolute;
+
+}
+@media only screen {
+	select.zip.ui-autocomplete.ui-menu.multiple {
+		width: 70%;
+	}
+}
+@media only screen and (min-width: 61.25em) {
+	select.zip.ui-autocomplete.ui-menu.multiple {
+		width: 47%;
+	}
+	
+}

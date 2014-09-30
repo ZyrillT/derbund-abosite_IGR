@@ -1,0 +1,93 @@
+/** srsly **/
+#contact-slider{
+    width:531px;
+    top:180px;
+    right: 0;
+    position: fixed;
+    z-index: 1000;
+}
+
+#contact-content {
+    width: 320px;
+    position: absolute;
+    right: 0px;
+    border: 0 none;
+    padding: 13px 15px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+    background: white;
+}
+
+#contact-slider h2, #contact-slider h3 {
+    font-size: 18px;
+    margin: 0 0 15px 0;
+    font-family: "Benton Sans Cond Black", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#contact-slider p {
+    margin: 0 0 10px 0;
+}
+#contact-slider .phone {
+    margin-bottom: 30px;
+}
+
+#contact-slider .phone h3, #contact-slider .address h3 {
+    margin-bottom: 10px;
+}
+
+#contact-slider fieldset {
+    border: 0 none;
+    margin-bottom: 20px;
+}
+
+#contact-slider input, #contact-slider textarea, #contact-slider select {
+    margin: 0 0 10px 0;
+    padding: 6px;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 2px;
+    border: 1px solid lightgrey;
+    outline: none;
+}
+
+#contact-slider textarea {
+    height: 80px;
+    max-width: 100%;
+    resize: vertical;
+    line-height: 1.2;
+}
+#contact-slider .btn {
+    color: white;
+    border-color: #24587E;
+    background-color: #24587E;
+}
+#contact-slider .btn:hover {
+    color: white;
+    background-color: #24587E;
+}
+#contact-slider .error, #contact-slider .success {
+    border: 1px solid #dd1122;
+    margin: 0 0 10px 0;
+    padding: 6px;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 2px;
+    color: #dd1122;
+    line-height: 1.2;
+    background-color: #FCF0F1;
+}
+#contact-slider .success {
+    border-color: #309865;
+    color: #309865;
+    background-color: #F2F8F5;
+    margin-bottom: 30px;
+}
+
+/* experimental */
+#js-contact-toggler {
+    position:absolute;
+    height: 65px;
+    width: 65px;
+    top:120px;
+    left:116px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+}
